@@ -1,0 +1,5 @@
+uncaughtException: Error executing adbExec. Original error: 'Command 'C:\\Users\\basse\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'adbExecTimeout' capability
+Error: Command 'C:\\Users\\basse\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' timed out after 20000ms
+    at Timeout._onTimeout (C:\Users\basse\.appium\node_modules\appium-uiautomator2-driver\node_modules\teen_process\lib\exec.js:122:19)
+    at listOnTimeout (node:internal/timers:573:17)
+    at processTimers (node:internal/timers:514:7)
